@@ -100,7 +100,8 @@ def index():
 
     dt = {
       'bg': [random.randint(0,255),random.randint(0,255), random.randint(0,255)],
-      'shape': shape
+      'shape': shape,
+      'shapeCol': [random.randint(0,255),random.randint(0,255), random.randint(0,255)],
     }
     details.append(dt)
 

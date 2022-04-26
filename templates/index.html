@@ -26,8 +26,8 @@
 
       p.draw = function () {
         p.background(p.color(detail.bg[0], detail.bg[1], detail.bg[2]));
-        p.fill(255);
 
+        p.fill(p.color(detail.shapeCol[0], detail.shapeCol[1], detail.shapeCol[2]));
         let _p = `p.${detail.shape}`;
         eval(_p);
       }
